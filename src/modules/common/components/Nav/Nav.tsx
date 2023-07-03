@@ -16,8 +16,10 @@ const Nav = () => (
           {link.title}
         </Link>
       ))}
-      <Button>Login</Button>
-      <Button>Sign Up</Button>
+      <ButtonContainer>
+        <Button>Login</Button>
+        <Button>Sign Up</Button>
+      </ButtonContainer>
     </LinksContainer>
   </Wrapper>
 );
@@ -31,12 +33,17 @@ const Wrapper = styled(Container)`
 
 const LinksContainer = styled.ul`
   display: flex;
-  gap: 16px;
+  gap: 36px;
 `;
 
 const Link = styled(NavLink)`
   color: hsl(0deg 0% 0%);
   text-decoration: none;
+`;
+
+const ButtonContainer = styled.div`
+  display: flex;
+  gap: 10px;
 `;
 
 export default Nav;

@@ -1,7 +1,11 @@
-import React from "react";
+import Nav from "modules/common/components/Nav/Nav";
 
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <div>
+      <Nav />
+    </div>
+  );
 };
 
 export default Home;
