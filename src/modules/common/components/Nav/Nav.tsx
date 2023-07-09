@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "../Logo/Logo";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
-import { navLinks } from "modules/common/api/links";
+import { navLinks } from "modules/common/api/constants";
 import { Container } from "../Container/Container";
 import Button from "../Button/Button";
 

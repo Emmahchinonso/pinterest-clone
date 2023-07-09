@@ -2,7 +2,10 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
   :root {
-    --color-red-400: hsl(351deg 100% 45%);
+    --red-400: hsl(351deg 100% 45%);
+    --grey-100: hsl(0deg 0% 94%);
+    --grey-900: hsl(0deg 0% 0%);
+    --white: hsl(0deg 0% 100%);
   }
 
   *, *::before, *::after {
